@@ -10,7 +10,7 @@
 }
 body{
     background:var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color:#fff;
 }
 
@@ -98,8 +98,21 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    border-radius: 5px;
 }
 
 .carrocel-filmes{
     margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.carrocel-filmes h4{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item{
+    cursor: pointer;
 }
